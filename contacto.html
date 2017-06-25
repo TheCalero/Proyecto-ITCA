@@ -17,8 +17,9 @@
         <link rel="icon" href="img/favicon.ico" />
         <title>ServiCenter</title>
     </head>
-    <body>    
-<!--     Comienzo del header      -->
+    <body>
+
+ <!--     Comienzo del header      -->
         <header class="navbar-fixed">
             <nav class="nav-extended z-depth-3">
                 <div class="nav-wrapper white">
@@ -26,27 +27,44 @@
                     <ul class="left">
                         <li><a href="index.html" class="black-text">Inicio</a></li>
                         <li class="black-text">></li>
-                        <li class="teal-text">&nbsp;&nbsp;&nbsp;Ayuda</li>
+                        <li class="teal-text">&nbsp;&nbsp;&nbsp;Contactanos</li>
                     </ul>
                 </div>
             </nav>
         </header>
 <!--    fin del header    -->
-<section class="container">
- <div class="row">
- <div class="row center">
- <h4>Preguntas frecuentes</h4>
- </div>
- 
-  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">help_outline</i>¿?</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    
-  </ul>
+
+
+<br><br>
+
+<h1 class="center header">Contactanos</h1> <br>
+  <div class="row">
+      <div class="container">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Nombre Completo</label>
+        </div>
+        <div class="input-field col s12 m6 l6">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_telephone" type="email" class="validate">
+          <label for="icon_telephone">Email</label>
+        </div>
+        <div class="input-field col s12 m12 l12">
+          <i class="material-icons prefix">message</i>
+          <textarea id="icon_telephone" type="tel" class="validate materialize-textarea" height="250px"></textarea>
+          <label for="icon_telephone">Mensaje</label>
+        </div>
+        <div class="row center">
+            <input class="btn btn-large center waves-effect blue" text="ENVIAR" type="submit" action="#"/>
+        </div>
+     </div>
+    </form>
+</div>
   </div>
-</section>
+    
 <!--    Pie de pagina    -->
         <footer class="pie page-footer brown darken-3" name="pie" role="contentinfo">
             <div class="container">
@@ -76,10 +94,9 @@
             </div>
         </footer>
 <!--    Fin de pie de pagina   -->
-<!--   Importando javascript y jquery al final     -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="scripts/materialize.min.js"></script>
-        <script type="text/javascript" src="scripts/script.js"></script>
-<!--   fin de la importacion  -->
+  
+
+
+
     </body>
 </html>
