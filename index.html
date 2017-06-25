@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta content="Marvin Josué Calero Requeno" name="author"/>
         <meta content="ServiCenter" name="application-name"/>
-<!--    Esta web usa Normalize y Materialize  proveídos por Google    -->
+<!--Esta web usa Normalize y Materialize  proveídos por Google    -->
         <link rel="stylesheet" href="css/normalize.css"/>
 <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,24 +22,35 @@
         <header class="navbar-fixed">
             <nav class="nav-extended z-depth-3">
                 <div class="nav-wrapper hide-on-small-only white">
-                    <a href="index.html" class="brand-logo material-icons"><span class="hide-on-med-and-down">&nbsp;&nbsp;&nbsp;<img style="height:60px; margin-top:2px;" src="img/s2.png" alt="LOGO"></span><img class="hide-on-large-only" style="height:54px; margin-top:5px;" src="img/Isotipo.png" alt="LOGOTINY"></a>
+                    <a href="index.html" class="brand-logo "><span class="hide-on-med-and-down">&nbsp;&nbsp;&nbsp;<img style="height:60px; margin-top:2px;" src="img/s2.png" alt="LOGO"></span><img class="hide-on-large-only" style="height:54px; margin-top:5px;" src="img/Isotipo.png" alt="LOGOTINY"></a>
                     <ul class="right">
-                        <li><a href="#servicio" class="black-text">Cot&iacute;zanos</a></li>
+                        <li><a href="#" class="black-text">Cot&iacute;zanos</a></li>
                         <li><a href="#" class="blue-text">Ayuda</a></li>
                         <li><a href="#" class="teal-text">Cont&aacute;ctanos</a></li>
                     </ul>
                 </div>
+<!--    comienzo de tabs            -->
                 <div class="nav-content">
-                    <ul class="tabs tabs-transparent">
-                        
-                        <li class="tab"><a class="black-text active" href="#inicio"><b>Empezar</b></a></li>
+                    <ul class="tabs tabs-transparent">                        
+                        <li class="tab"><a class="black-text" href="#inicio"><b>Empezar</b></a></li>
                         <li class="tab"><a class="deep-purple-text" href="#servicio"><b>Servicios</b></a></li>
                         <li class="tab"><a class="teal-text" href="#descarga"><b>Descargas</b></a></li>
-                        <li class="tab hide-on-small-only"><a class="red-text" href="#pie"><b>Sobre nosotros</b></a></li>
+                        <li class="tab hide-on-small-only"><a class="black-text" href="#pie"><b>Sobre nosotros</b></a></li>
                     </ul>
                 </div>
+<!--    fin de tabs            -->
             </nav>
         </header>
+<!--    fin del header    -->
+
+<!--  Este nav es para el logo en la version movil    -->
+       <nav class="hide-on-med-and-up" id="nav2">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center"><img style="height:60px;" src="img/s2.png" alt="LOGO"></a>
+        </div>
+        </nav>
+<!--   Fin de nav para movil     -->
+
 <!--    Comienzo del slider    -->
         <div class="slider">
             <ul class="slides">
@@ -111,11 +122,11 @@
             <div class="section no-pad-bot">
                 <div class="container">
                     <div class="row">
-                       <div class="col s12 m5 l6 offset-m5 offset-l6  hoverable">
+                       <div id="combito" class="col s12 l6 offset-l6 hoverable">
                             <br><br>
-                            <h1 class="header center teal-text text-lighten-2">ServiCenter</h1>
+                            <h1 class="header center white-text"><b>ServiCenter</b></h1>
                             <div class="row center">
-                                <h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eaque aliquid, temporibus quisquam explicabo sit!</h5>
+                                <h5 class="header col s12 light">La soluci&oacute;n inteligente a tus sucursales alrededor del mundo&#33;</h5>
                             </div>
                             <div class="row center">
                                 <a href="#" id="download-button" class="btn-large waves-effect waves-light blue lighten-1 pulse">¡Comienza ya&#33;</a>
@@ -125,90 +136,127 @@
                     </div>
                 </div>
             </div>
-            <div class="parallax"><img src="img/img1.jpg" alt="Aquí va una bonita imagen con efecto parallax"></div>
+            <div class="parallax"><img src="img/log1.jpg" alt="Aquí va una bonita imagen con efecto parallax"></div>
         </div>
 <!--  Fin del primer parallax  -->
 
-  <div class="container">
-    <div class="section">
+<!--  Segunda seccion-->
+        <div class="container">
+            <section class="section">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                            <h5 class="center">Speeds up development</h5>
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4 hoverable">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+                            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                        </div>
+                    </div>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                            <h5 class="center">User Experience Focused</h5>
+
+                            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                            <h5 class="center">Easy to work with</h5>
+
+                            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
+<!--  Fin de segunda seccion  -->
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
+<!--  Segundo parallax  -->
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <h5 class="header col s12 medium">Gestiona tus locales desde la comodidad de tu hogar</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax"><img src="img/log2.jpg" alt="Unsplashed background img 2"></div>
         </div>
+<!--  fin de segundo parallax   -->
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+<!--  inicio de tercera seccion  -->
+        <div class="container">
+            <section class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4 name="">Servicios</h4>
+                        <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
+<!--  fin de tercera seccion  -->
 
-    </div>
-  </div>
-
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+<!--  inicio de tercer parallax-->
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <h5 class="header col s12">Todo el análisis técnico a tu disposición con nuestras gráficas en tiempo real</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="img/log3.jpg" alt="Imagen de graficas">
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/img2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 name="">Servicios</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<!--   fin de tercer parallax    -->
+       
+<!--  seccion de cotizacion  -->
+        <div class="container">
+            <section class="section">
+                <form>
+                    <div class="row">
+                        
+                    </div>
+                </form>
+            </section>
         </div>
-      </div>
+<!--  fin de seccion de cotizacion  -->
 
-    </div>
-  </div>
+<!--    Pie de pagina    -->
+        <footer class="pie page-footer brown darken-3" name="pie" role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Sobre nosotros</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright brown darken-4">
+                <div class="container">
+                    Todos los derechos reservados &copy; ServiCenter &trade;
+                    <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by <span style="color:#736eee;">materialize</span> </a>
+                </div>
+            </div>
+        </footer>
+<!--    Fin de pie de pagina   -->
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/img3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-        <div class="container">    
-            <main class="contenido" role="main">
-                
-            </main>            
-        </div>
 <!--     Boton flotante para moviles       -->
         <div class="fixed-action-btn hide-on-med-and-up click-to-toggle">
             <a class="btn-floating btn-large blue">
@@ -220,14 +268,13 @@
                 <li><a class="btn-floating  light-blue darken-4 tooltipped" data-position="left" data-delay="50" data-tooltip="Contáctanos"><i class="material-icons ">contact_mail</i></a></li>
                 <li><a class="btn-floating blue darken-2 tooltipped" data-position="left" data-delay="50" data-tooltip="Ayuda"><i class="material-icons ">live_help</i></a></li>
             </ul>
-        </div>    
-<!--    Pie de pagiana    -->
-        <footer class="pie" name="pie" role="contentinfo">
-        </footer>       
+        </div> 
+<!--       Fin de boton flotante para moviles    -->
+
 <!--   Importando javascript y jquery al final     -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="scripts/materialize.min.js"></script>
         <script type="text/javascript" src="scripts/script.js"></script>
-
+<!--   fin de la importacion  -->
     </body>
 </html>

@@ -3,7 +3,6 @@
     $('.parallax').parallax();
     $('.tooltipped').tooltip({delay: 50});
     $('.slider').slider({interval: 3600, transition:600});
-    $('ul.tabs').tabs();
     $('a[href*=#]').click(function() {
      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
          && location.hostname == this.hostname) {

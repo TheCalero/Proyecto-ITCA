@@ -1,8 +1,21 @@
 nav {
     background-color: rgba(255, 255, 255,0.6);
     }
+#nav2{
+    background-color: rgba(208, 212, 219, 0.2);
+}
+.sombrita{
 
-
+text-shadow: -2px -1px 17px rgba(0,0,0,0.5) , 5px 5px 3px rgba(93,95,96,0.91) ;
+-webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+transition: none;
+-webkit-transform: none;
+transform: none;
+-webkit-transform-origin: 50% 50% 0;
+transform-origin: 50% 50% 0;
+}
 #limp{
     display: block;
     content: '';
@@ -11,9 +24,8 @@ nav {
 p {
   line-height: 2rem;
 }
-
-.button-collapse {
-  color: #26a69a;
+#combito{
+    background-color: rgba(83,40,255,0.4);
 }
 
 .parallax-container {
