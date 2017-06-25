@@ -16,6 +16,9 @@ transform: none;
 -webkit-transform-origin: 50% 50% 0;
 transform-origin: 50% 50% 0;
 }
+.tshadow{
+    text-shadow: 0px 0px 5px #000000;
+}
 #limp{
     display: block;
     content: '';
